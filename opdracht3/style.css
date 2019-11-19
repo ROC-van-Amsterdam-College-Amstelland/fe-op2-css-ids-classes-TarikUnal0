@@ -1,2 +1,41 @@
 
 
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  } 
+  
+  header li a {
+    display: flex;
+    background-color: grey;
+  }
+
+ footer ul{
+     list-style-type: none;
+ }
+ footer ul{
+     display: flex;
+     flex-direction: row;
+     
+ }
+
+ footer li{
+     padding-right: 20px;
+    }
+
+ body{
+     display: flex;
+     flex-direction: column;
+ }
+
+ a{
+     text-decoration: none;
+     color: black;
+     
+ }
+
+ a:hover{
+     color: blue;
+ }
