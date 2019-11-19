@@ -13,3 +13,62 @@ img{
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
+
+
+
+header, main, footer{
+    width: 100%;
+}
+
+header, footer{
+    height: 20%;
+    background-color: red;
+}
+
+main{
+    height: 80%;
+    background-color: aqua;
+}
+
+header > img{
+    margin: 20px;
+}
+main>img{
+    width: 400px;
+}
+
+footer>img{
+    border: solid black 1px;
+}
+
+header>nav, nav>ul{
+    display: flex;
+}
+
+nav{
+    padding-left: 20px;
+    
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+}
+
+header>nav>ul,footer>nav>ul{
+    list-style-type: none;
+}
+
+div>h1{
+    font-size: 50px;
+    background-color: green;
+}
+
+ul>li{
+    border: dashed black 1px;
+}
+h3>p{
+    font-family: monospace;
+}
+img>ul{
+    color: blueviolet;
+    list-style-type: circle;
+}
